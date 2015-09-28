@@ -11,7 +11,6 @@ use pocketmine\utils\TextFormat;
 class Main extends PluginBase {
     
     public function onCommand(CommandSender $sender, Command $command, $label, array $args) {
-        
        if($sender instanceof Player)
            $number = mt_rand(1, 6);
             if ($number == 1) {
