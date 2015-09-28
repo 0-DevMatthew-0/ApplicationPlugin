@@ -9,7 +9,6 @@ use pocketmine\Player;
 use pocketmine\utils\TextFormat;
 
 class Main extends PluginBase {
-    
     public function onCommand(CommandSender $sender, Command $command, $label, array $args) {
 
                 
