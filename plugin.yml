@@ -36,30 +36,30 @@ commands:
         permission: application.command.diceroll
 permissions:
     application.command.main:
-        description: "Main reason why I would like to be a developer."
+        description: "Permits access to /main"
         default: true
     application.command.experience:
-        description: "My experience with coding."
+        description: "Permits access to /experience"
         default: true
     application.command.information:
-        description: "About me"
+        description: "Permits access to /information"
         default: true
     application.command.whyiamapplying:
-        description: "Why I am applying"
+        description: "Permits access to /whyiamapplying"
         default: true
     application.command.servversion:
-        description: "Version of server."
+        description: "Permits access to /servversions"
         default: true
     application.command.promote:
-        description: "Promote a player."
+        description: "Permits access to /promote"
         default: true
     application.command.heal:
-        description: "Heal a player."
+        description: "Permits access to /heal"
         default: op
     application.command.teleport:
-        description: "Teleport to a player."
+        description: "Permits access to /teleport"
         default: op
     application.command.diceroll:
-        description: "Roll the dice for a random number."
+        description: "Permits access to /diceroll"
         default: true
     
