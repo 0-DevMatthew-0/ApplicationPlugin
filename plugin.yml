@@ -1,0 +1,65 @@
+
+name: Application
+author: Bolts
+description: Application for Leet developer.
+version: "1.0.0"
+api: [1.13.0]
+main: Bolts\main
+
+commands:
+    main:
+        description: Main reason why I would like to be a developer.
+        permission: application.command.main
+    experience:
+        description: My experience with coding.
+        permission: application.command.experience
+    information:
+        description: About me.
+        permission: application.command.info
+    whyiamapplying:
+        description: Why I am applying for developer.
+        permission: application.command.whyiamapplying
+    servversion:
+        description: Version of server.
+        permission: application.command.servversion
+    promote:
+        description: Promote a player.
+        permission: application.command.promote
+    heal:
+        description: Heal a player.
+        permission: application.command.heal
+    teleport:
+        description: Teleport to a player.
+        permission: application.command.teleport
+    diceroll:
+        description: Roll the dice for a random number.
+        permission: application.command.diceroll
+permissions:
+    application.command.main:
+        description: "Main reason why I would like to be a developer."
+        default: true
+    application.command.experience:
+        description: "My experience with coding."
+        default: true
+    application.command.information:
+        description: "About me"
+        default: true
+    application.command.whyiamapplying:
+        description: "Why I am applying"
+        default: true
+    application.command.servversion:
+        description: "Version of server."
+        default: true
+    application.command.promote:
+        description: "Promote a player."
+        default: true
+    application.command.heal:
+        description: "Heal a player."
+        default: op
+    application.command.teleport:
+        description: "Teleport to a player."
+        default: op
+    application.command.diceroll:
+        description: "Roll the dice for a random number."
+        default: true
+    
