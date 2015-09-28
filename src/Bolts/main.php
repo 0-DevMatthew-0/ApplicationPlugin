@@ -20,7 +20,6 @@ class Main extends PluginBase {
     
     
     public function onCommand(CommandSender $sender, Command $command, $label, array $args) {
-
         if($sender instanceof Player) {
             $name = $sender->getName();
             if (strtolower($command->getName()) == 'heal') {
